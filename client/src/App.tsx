@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { Button } from './components/ui/button'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <p className="read-the-docs text-red-400">
-        Click on the Vite and React logos to learn more
+        <Button variant={'destructive'} >ff</Button>
       </p>
     </>
   )
