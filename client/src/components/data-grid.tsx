@@ -11,7 +11,7 @@ import {
   import { FaEdit } from "react-icons/fa";
   import { MdDeleteForever } from "react-icons/md";
   import { CustomerWithID } from "@/type";
-  import { Dispatch, SetStateAction, useState } from "react";
+  import React, { Dispatch, SetStateAction, useState } from "react";
 import { AlertDialogBox } from "./alert-dialog";
  
   
